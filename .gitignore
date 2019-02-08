@@ -1,3 +1,4 @@
 *.exe
 *.o
 .vscode/
+*.cpp.save-failed
