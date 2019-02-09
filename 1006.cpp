@@ -175,8 +175,22 @@ void mutiply(string a, string b){
     normalize(rst);
 }
 
-void subtract(string a, string b){
-    
+void divide(string a, string b){
+    int c[a.size()] = {0};
+    int d[b.size()] = {0};
+    vector<int> rst;
+
+    int j = 0;
+    for(int i=a.size()-1;i>-1;i--){
+        c[j] += (int)a[i] - (int)'0';
+        j++;
+    }
+    j = 0;
+    for(int i=b.size()-1;i>-1;i--){
+        d[j] += (int)b[i] - (int)'0';
+        j++;
+    }
+
 }
 
 
